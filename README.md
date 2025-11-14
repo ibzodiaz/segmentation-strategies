@@ -18,7 +18,7 @@ boundaries keep segments coherent and adaptive in length, but remains highly dep
 the precision of boundary detection step whose errors can
 hurt further model performances.
 
-• Thematic segmentation with passage retrieval: ranks thematic segments with a dense retriever and
+• Thematic segmentation with passage retrieval : ranks thematic segments with a dense retriever and
 keep the top K. It offers the strongest coverage when
 context is fragmented, at the cost of an index and added
 latency but some entities can be losed.
@@ -28,7 +28,7 @@ The other files contain the dependency functions.
 # Silver annotation
 The Silver annotation file contains the code that uses GLiNER and NuNER on which pseudo-labeling has been applied to generate a new dataset of territorial food systems called consensus dataset or Silver dataset as shown on the fig below.
 
-<img width="800" height="700" alt="meth (3)" src="https://github.com/user-attachments/assets/5001b91d-91da-45f5-acee-f7b1de5d08de" />
+<img width="600" height="500" alt="meth (3)" src="https://github.com/user-attachments/assets/5001b91d-91da-45f5-acee-f7b1de5d08de" />
 
 
 
