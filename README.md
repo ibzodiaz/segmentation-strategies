@@ -21,7 +21,7 @@ hurt further model performances. It's based on our own framework called DynamicS
 • Thematic segmentation with passage retrieval : ranks thematic segments with a dense retriever and
 keep the top K. It offers the strongest coverage when
 context is fragmented, at the cost of an index and added
-latency but some entities can be losed.
+latency but some entities can be losed. It's based on our own framework called SemanticQueryV1 in the file SemanticQueryV1.py.
 
 The other files contain the dependency functions.
 
