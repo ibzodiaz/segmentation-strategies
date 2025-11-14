@@ -16,7 +16,7 @@ that their context is embedded in the segment.
 • Thematic segmentation : data-driven topic
 boundaries keep segments coherent and adaptive in length, but remains highly dependent to
 the precision of boundary detection step whose errors can
-hurt further model performances.
+hurt further model performances. It's based on our own framework called DynamicSegmentation in the file DynamicSegmentation.py.
 
 • Thematic segmentation with passage retrieval : ranks thematic segments with a dense retriever and
 keep the top K. It offers the strongest coverage when
